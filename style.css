@@ -75,12 +75,10 @@ body {
 }
 
 .header-logo-img {
-    height: 46px;
+    height: 36px;
     width: auto;
-    border-radius: 8px;
-    box-shadow: 0 3px 12px rgba(243, 112, 33, 0.35);
-    border: 1.5px solid rgba(243, 112, 33, 0.4);
     object-fit: contain;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.5));
 }
 
 .brand-text-container {
