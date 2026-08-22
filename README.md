@@ -5,6 +5,8 @@
 
 ---
 https://rgis-samack.github.io/assai/
+---
+https://bit.ly/rgisassai
 
 
 ## 🚀 Visão Geral
