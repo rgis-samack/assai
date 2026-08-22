@@ -636,7 +636,15 @@ footer {
     color: #ffffff;
 }
 
+/* Responsividade Completa para Mobile, Tablet & Desktop */
 @media (max-width: 1024px) {
+    .header-container {
+        max-width: 98%;
+        gap: 1rem;
+    }
+    .app-main {
+        max-width: 98%;
+    }
     .filter-grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -645,21 +653,99 @@ footer {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 768px), (pointer: coarse) {
+    body {
+        padding-bottom: 120px;
+    }
+    .app-header {
+        padding: 0.6rem 1rem;
+    }
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    .header-tags {
+        width: 100%;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .badge-tag, .creator-badge {
+        font-size: 0.72rem;
+        padding: 0.25rem 0.65rem;
+    }
+    .app-main {
+        max-width: 100%;
+        padding: 0 0.5rem;
+        margin: 0.8rem auto;
+        gap: 0.9rem;
+    }
+    .card {
+        padding: 1rem;
+        border-radius: 12px;
+    }
+    .upload-zone-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    .upload-action-btn {
+        width: 100%;
+    }
+    .btn-upload-lg {
+        width: 100%;
+        min-height: 48px;
+        font-size: 1.05rem;
+    }
     .filter-grid {
         grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .input-wrapper input {
+        min-height: 48px;
+        font-size: 1.15rem;
     }
     .summary-grid {
         grid-column: span 1;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 0.5rem;
+    }
+    .summary-item {
+        padding: 0.5rem 0.6rem;
+    }
+    .summary-label {
+        font-size: 0.65rem;
+    }
+    .summary-val {
+        font-size: 1.1rem;
+    }
+    .table-responsive {
+        max-height: 420px;
+        -webkit-overflow-scrolling: touch;
+    }
+    th, td {
+        padding: 0.65rem 0.75rem;
+        font-size: 0.82rem;
     }
     footer {
         flex-direction: column;
-        gap: 0.75rem;
-        padding: 0.85rem;
+        gap: 0.65rem;
+        padding: 0.75rem 1rem;
+    }
+    .btn-assai-main {
+        width: 100%;
+        min-height: 50px;
+        font-size: 1.05rem;
+        padding: 0.75rem 1rem;
     }
     .support-widget {
         margin-left: 0;
+        width: 100%;
         align-items: center;
     }
+}
+
+body.is-mobile .btn,
+body.is-mobile input {
+    touch-action: manipulation;
 }
