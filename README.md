@@ -26,26 +26,7 @@ Este repositório contém a aplicação web de alta performance para processamen
 
 ---
 
-## 📦 Estrutura de Arquivos para o GitHub Pages
 
-| Arquivo | Descrição |
-|---|---|
-| `index.html` | Estrutura principal da página com tema Assaí Solar e Drag & Drop |
-| `style.css` | Folha de estilos corporativa responsiva e de alta visibilidade |
-| `app.js` | Motor de processamento, geração de PDF jsPDF, filtros e telemetria ofuscados |
-| `logo.png` | Logotipo oficial do Assaí (Cabeçalho Superior Esquerdo) |
-| `logo meio.webp` | Logotipo solar animado do Assaí (Empty State / Hero Central) |
-| `app_logo.ico` | Favicon da aplicação |
-
----
-
-## 🌐 Publicação no GitHub Pages
-
-1. Crie um novo repositório no seu GitHub (ex: `assai` ou `gerador-assai`).
-2. Faça o upload de todos os arquivos desta pasta (`index.html`, `style.css`, `app.js`, `logo.png`, `logo meio.webp`, `app_logo.ico`).
-3. Vá em **Settings** > **Pages** > em **Branch**, selecione `main` (ou `master`) e `/root` > Clique em **Save**.
-4. Sua página estará online no link:
-   `https://rgis-samack.github.io/assai/` *(ou no nome do seu repositório)*.
 
 ---
 *© Samack 697 • RGIS Inventários*
