@@ -229,6 +229,58 @@ body {
     color: var(--assai-yellow);
 }
 
+.upload-action-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+}
+
+/* Atalho Corporativo Sam's Club ao lado de Selecionar Arquivo */
+.sams-shortcut-assai-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.65rem 1.25rem;
+    border-radius: 9px;
+    background: linear-gradient(135deg, rgba(0, 103, 178, 0.22) 0%, rgba(0, 70, 130, 0.42) 100%);
+    border: 1.5px solid rgba(0, 125, 198, 0.55);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sams-shortcut-assai-btn:hover {
+    transform: translateY(-2px) scale(1.03);
+    background: linear-gradient(135deg, rgba(0, 103, 178, 0.4) 0%, rgba(0, 125, 198, 0.65) 100%);
+    border-color: #00e5ff;
+    box-shadow: 0 6px 20px rgba(0, 125, 198, 0.6);
+}
+
+.sams-shortcut-assai-img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    border-radius: 8px;
+    display: block;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.45));
+}
+
+.sams-shortcut-assai-text {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.98rem;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 0.3px;
+}
+
+.sams-shortcut-assai-arrow {
+    color: #00e5ff;
+    font-size: 1.05rem;
+    font-weight: 800;
+}
+
 .btn {
     display: inline-flex;
     align-items: center;
